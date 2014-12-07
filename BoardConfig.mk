@@ -29,3 +29,5 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2tmo
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2tmo/board-info.txt
+
+LIQUIFY=true
