@@ -7,10 +7,10 @@ $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=d2uc \
+    PRODUCT_NAME=d2tmo \
     TARGET_DEVICE=d2tmo \
-    BUILD_FINGERPRINT="samsung/d2uc/d2att:4.4.2/KOT49H//T999UVDMD5:user/release-keys" \
-    PRIVATE_BUILD_DESC="d2uc-user user 4.4.2 KOT49H T999UVDMD5 release-keys"
+    BUILD_FINGERPRINT="samsung/d2tmo/d2tmo:5.0.2/LRX22G/T999UVUENC2:user/release-keys" \
+    PRIVATE_BUILD_DESC="d2tmo-user 5.0.2 LRX22G T999UVUENC2 release-keys"
 
 PRODUCT_NAME := liquid_d2tmo
 PRODUCT_DEVICE := d2tmo
