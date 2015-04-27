@@ -18,7 +18,7 @@
 
     <!-- The preferred APN to use, in the format name,mcc,mnc
          Leave empty to choose automatically. -->
-	<add-resource type="string" name="config_preferred_apn"></add-resource>  
+	 <add-resource type="string" name="config_preferred_apn"></add-resource>  
 	<string name="config_preferred_apn">fast.t-mobile.com,310,260</string>
 </resources>
 
